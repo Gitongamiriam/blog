@@ -10,6 +10,10 @@ from blog import request
 
 
 
+@app.route("/index")
+def index():
+    return render_template("index.html")
+
 @app.route("/")
 @app.route("/home")
 def home():
