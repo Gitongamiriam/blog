@@ -12,7 +12,7 @@ from blog import request
 
 @app.route("/index")
 def index():
-    return render_template("index.html")
+    return render_template("index.html", title="Index")
 
 @app.route("/")
 @app.route("/home")
