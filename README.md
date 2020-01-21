@@ -1,4 +1,4 @@
-## PICHBLOG
+## BLOG
 
 
 ## DESCRIPTION
@@ -25,7 +25,7 @@ Input:User clicks on the post that he has created.
 Output: The delete button appears that allows one to delete posts created.
 Set Up Instructions
 Open your terminal and move to a directory where you would like to store the project eg. cd Documents
-Use the command git clone to clone the aplication at https://github.com/Gitongamiriam/pitch-blog
+Use the command git clone to clone the aplication at https://github.com/Gitongamiriam/blog
 After cloning navigate to the project.
 Run pip install to install all the dependencies
 Now run the project using your terminal with the command python3.6 app.py
