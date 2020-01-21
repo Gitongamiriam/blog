@@ -9,12 +9,11 @@ from flask_login import login_user, current_user, logout_user, login_required
 from blog import request
 
 
-
+@app.route("/")
 @app.route("/index")
 def index():
     return render_template("index.html", title="Index")
 
-@app.route("/")
 @app.route("/home")
 def home():
     posts = Post.query.all()
